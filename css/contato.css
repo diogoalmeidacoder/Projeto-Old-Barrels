@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&family=Sorts+Mill+Goudy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+body {   
+    font-family: 'Sorts Mill Goudy', serif , Arial, Helvetica, sans-serif;
+    background-color: #d1c2ab;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;   
+    padding: 30px 30px;    
+    background-color: #1d1d1b
+    /* border: 5px solid blueviolet; */
+}
+
+.menu img {
+    display: flex;
+    padding: 0 250px;    
+    width: 20%;  
+    /* border: 5px solid blueviolet; */
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;      
+    width: 100%;
+    /* border: 5px solid blueviolet */
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.contato {
+    display: flex;   
+    flex-direction: column;
+    align-items:center;
+    margin: 80px auto;
+    /* align-items: center;      */
+    /* border: 3px solid blue; */
+}
+
+.rodape {
+    display: flex;   
+    flex-direction: column;         
+    text-align: center;    
+    color: #1a1a1a;
+    font-family: 'Work Sans', sans-serif;    
+    background-color: #c27e23; 
+    margin-top: 10%;  
+    /* border: 3px solid blue; */
+}
+
+.rodape span {
+    color: white;
+    font-size: 12px;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+
+    .menu {
+        padding: 0;
+        height: 180px;
+        display: flex;
+        justify-content: center;        
+        flex-direction: column;       
+        align-items: center;        
+    }
+
+    .logo {
+        margin-bottom: 15px;
+        padding-right: 4%;
+    }
+
+    .menu img {  
+           
+        width: 120px;
+        height: 80px;           
+        /* border: 5px solid blueviolet; */
+    }
+}    

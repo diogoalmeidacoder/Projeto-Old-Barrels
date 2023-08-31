@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&family=Sorts+Mill+Goudy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+body {
+    font-family: 'Sorts Mill Goudy', serif , Arial, Helvetica, sans-serif;
+    background-color: #d1c2ab;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;   
+    padding: 30px 30px;    
+    background-color: #1d1d1b;    
+    /* border: 5px solid blueviolet; */
+}
+
+.menu img {
+    display: flex;
+    padding: 0 250px;    
+    width: 20%;      
+    /* border: 5px solid blueviolet; */
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;      
+    width: 100%;
+    /* border: 5px solid blueviolet */
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px #1d1d1b;
+    font-size: 40px;
+}
+
+.banner img {
+    display: flex;
+    align-items: center;
+    width: 100%; 
+    margin: auto;    
+    /* border: 5px solid blueviolet */
+}
+
+.vinhos {   
+    padding: 15px;
+    font-family: 'Sorts Mill Goudy', serif;   
+    color: white; 
+    background-color: #1a1a1a;
+    /* border: 5px solid blueviolet; */
+}
+
+.conteudo-vinhos {
+    margin: auto;
+    /* border: 5px solid blueviolet; */
+}
+
+.grid-vinho {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 100px;    
+    width: 90%;
+    margin: 0 auto 50px auto
+}
+
+.vbranco {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 100px;    
+    width: 90%;
+    margin: 0 auto 50px auto
+}
+
+.grid-texto {
+    text-align: right;    
+}
+
+p {
+    font-size: 18px;
+}
+
+.vinhos img { 
+    /* ***************AJUSTAR IMAGEM ESQUERDA E CENTRO*************          */
+    max-width:400px;
+    border-radius: 10px;
+    /* border: 5px solid white; */
+}
+
+
+
+.horario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    font-size: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.rodape {
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #1a1a1a;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #c27e23;
+    margin-top: 10%;
+    /* border: 3px solid blue; */
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.rodape span {
+    color: white;
+    font-size: 12px;
+    font-style: italic;
+}
+
+
+@media (max-width: 768px) {
+
+    .menu {
+        padding: 0;
+        height: 180px;
+        display: flex;
+        justify-content: center;        
+        flex-direction: column;       
+        align-items: center;        
+    }
+
+    .logo {
+        margin-bottom: 15px;
+        padding-right: 4%;
+    }
+
+    .menu img {  
+           
+        width: 120px;
+        height: 80px;           
+        /* border: 5px solid blueviolet; */
+    }
+    
+    .grid-vinho {      
+        display: flex;
+        justify-content: center;
+        flex-direction: column;        
+        align-items: center;   
+        /* border: 5px solid blueviolet;      */
+    }
+
+    .vinhos img {         
+        margin-top: 30px;
+        max-width: 300px;
+        border-radius: 10px;       
+    }
+
+    .vbranco {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        /* border: 5px solid blueviolet; */
+    }
+
+    .grid-texto {              
+        text-align: center;          
+        /* border: 5px solid blueviolet;  */
+    }    
+
+    .horario {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 50px;
+        font-size: 15px;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+        text-shadow: 3px 3px #1d1d1b;
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+    
+}

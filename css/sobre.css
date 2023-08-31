@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&family=Sorts+Mill+Goudy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+body {
+    font-family: 'Sorts Mill Goudy', serif , Arial, Helvetica, sans-serif;
+    background-color: #d1c2ab;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;   
+    padding: 30px 30px;    
+    background-color: #1d1d1b
+    /* border: 5px solid blueviolet; */
+}
+
+.menu img {
+    display: flex;
+    padding: 0 250px;    
+    width: 20%;  
+    /* border: 5px solid blueviolet; */
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;      
+    width: 100%;
+    /* border: 5px solid blueviolet */
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.sobre {    
+    padding: 30px 100px;
+    text-align: center;      
+    font-size: 30px;
+    /* border: 5px solid blueviolet */
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px #1d1d1b;
+    font-size: 40px;
+    
+}
+
+h3 {
+    font-size: 25px;    
+    padding: 50px;
+}
+
+.sobre img {
+    width: 50%; 
+    margin: 40px auto;    
+    display: flex;
+    justify-content: center; 
+    border-radius: 5px;   
+    border: 3px solid #1d1d1b;
+}
+
+.sobre-texto {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+@media (max-width: 768px) {  
+
+        .menu {
+            padding: 0;
+            height: 180px;
+            display: flex;
+            justify-content: center;        
+            flex-direction: column;       
+            align-items: center;        
+        }
+    
+        .logo {
+            margin-bottom: 15px;
+            padding-right: 4%;
+        }
+    
+        .menu img {  
+               
+            width: 120px;
+            height: 80px;           
+            /* border: 5px solid blueviolet; */
+        }
+    
+    .sobre img {      
+        width: 100%;     
+        display: block;
+        justify-content: center; 
+        flex-wrap: wrap;
+        border-radius: 5px;   
+        border: 3px solid #1d1d1b;
+    }
+
+    h2 {
+        text-align: center;
+        color: white;
+        text-shadow: 3px 3px #1d1d1b;
+        font-size: 30px;        
+    }
+
+    h3 {
+        font-size: 20px;    
+        padding: 30px;
+    }
+}  
+    
+    
