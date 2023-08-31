@@ -28,5 +28,5 @@ let meuIntervalo = setInterval(nextSlide,2000);
 
 const imagens = document.getElementsByClassName("minhaclasseimg");
 imagens.forEach(cadaImg => {
-    console.log(cadaImg);
+    // console.log(cadaImg);
 });
